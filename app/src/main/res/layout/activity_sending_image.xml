@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+
+    tools:context=".Sending_image">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To:"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="50dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textSize="26sp"
+        android:id="@+id/textto"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        ></TextView>
+<EditText
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:inputType="textEmailAddress"
+    android:id="@+id/email_to"
+    ></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject:"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="50dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textSize="26sp"
+        android:id="@+id/subject"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        ></TextView>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailSubject"
+        android:id="@+id/Subject_12"
+        ></EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message:"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="50dp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+        android:textSize="26sp"
+
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        ></TextView>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="text"
+        android:lines="10"
+        android:gravity="start|top"
+        android:id="@+id/Message_1"
+        ></EditText>
+    <Button
+        android:id="@+id/yes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:textSize="26sp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/strock"
+        android:text="Send"
+        android:textColor="#000"></Button>
+</LinearLayout>
